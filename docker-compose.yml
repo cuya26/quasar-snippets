@@ -1,0 +1,14 @@
+version: '3.1'
+services:
+    frontend:
+        image: quasar-snippets:latest
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        volumes:
+            - ./:/usr/src/app/
+        container_name: quasar-snippets
+        ports:
+            - 8080:8080
+        # restart: always
+        command: sh -c "npm install && quasar dev"

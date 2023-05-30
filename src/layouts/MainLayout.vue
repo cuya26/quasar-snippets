@@ -5,7 +5,7 @@
         <div class="row justify-between col-12">
           <div class="col-3"></div>
           <q-toolbar-title class="col-6 row justify-evenly">
-            Quasar App
+            Snippets
           </q-toolbar-title>
 
           <div class="col-3 row justify-end items-center">
